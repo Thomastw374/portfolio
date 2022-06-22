@@ -1,6 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Inter&display=swap');
+
 * {
-    margin: 0;
+    margin: 0.25rem;
     padding: 0;
     box-sizing: border-box;
+    background-color: #2C2A2A;
+    font-family: "cormorant", "inter",sans-serif;
 }
 
+$title-font: "cormorant";
+$main-text-font: "inter";
+$primary-color: white;
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    .header__title {
+        font: $title-font;
+
+    }
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .header__menu__rectangle-1 {
+            width: 1.56rem;
+            height: 0.06rem;
+            background: #FFFFFF;
+            margin-bottom: 0.5rem;
+        }
+
+        .header__menu__rectangle-2 {
+            width: 1.13rem;
+            height: 0.06rem;
+            background: #FFFFFF;
+        }
+
+    }
+
+}
+
+.main {
+    .main__section-2 {
+        .main__section-2__card {
+           .main__section-2__card__image {
+            width: auto;
+           } 
+        }
+    }
+}
