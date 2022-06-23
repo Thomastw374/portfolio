@@ -54,6 +54,20 @@
   display: flex;
   justify-content: center;
 }
+.main .main__section-2 .main__section-2__card .main__section-2__card__title {
+  display: flex;
+  justify-content: space-between;
+}
+.main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__button {
+  display: flex;
+  justify-content: center;
+  background-color: #3C3636;
+  border: 2px solid #3C3636;
+  border-radius: 50%;
+}
+.main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__button .main__section-2__card__title__button__button-image {
+  background-color: #3C3636;
+}
 .main .main__section-2 .main__section-2__card .main__section-2__card__image {
   width: 20.7rem;
   height: auto;
