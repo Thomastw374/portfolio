@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Inter&display=swap');
 
 * {
-    margin: 0.35rem;
+    margin: 0rem;
     padding: 0;
     box-sizing: border-box;
     background-color: #2C2A2A;
@@ -16,6 +16,7 @@ $tertiary-color: #3C3636;
 
 
 .header {
+    margin: 1.9rem;
     display: flex;
     justify-content: space-between;
     color: $primary-color;
@@ -51,7 +52,12 @@ $tertiary-color: #3C3636;
 .main {
     color: $primary-color;
 
+    .main__portfolio-header {
+        margin: 1.5rem;
+    }
+
     .main__section-1 {
+        margin: 1.5rem;
         .main__section-1__header {
             font-size: 5rem;
             font-weight: 400;
@@ -67,14 +73,41 @@ $tertiary-color: #3C3636;
 
     .main__section-2 {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         .main__section-2__card {
-
+            margin-top: 1.5rem;
+            .main__section-2__card__buttons {
+                .main__section-2__card__buttons__button {
+                    text-decoration: none;
+                    font: $title-font;
+                    color: $primary-color;
+                    border: $tertiary-color;
+                    background-color: $tertiary-color;
+                    padding-block: 0.2rem;
+                    padding-inline: 1rem;
+                    margin-right: 0.2rem;
+                    
+                }
+            }
+            .main__section-2__card__rectangle {
+                width: 5.7rem;
+                height: 0.0625rem;
+                background-color: $secondary-color;
+                margin-block: 1rem;
+            }
+    
             .main__section-2__card__title {
                 display: flex;
                 justify-content: space-between;
-               
+                align-items: center;
+
+                .main__section-2__card__title__text {
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
                 .main__section-2__card__title__buttons {
+                    display: flex;
                     .main__section-2__card__title__buttons__button {
                     display: flex;
                     justify-content: center;
@@ -84,16 +117,13 @@ $tertiary-color: #3C3636;
 
                 .main__section-2__card__title__buttons__button-image {
                     background-color: $tertiary-color;
+                    color: $tertiary-color;
                 }
                 
                 }
                } 
             }
             
-           .main__section-2__card__image {
-            width: 20.7rem;
-            height: auto;
-           } 
         }
     }
 }

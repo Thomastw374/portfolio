@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Inter&display=swap");
 * {
-  margin: 0.35rem;
+  margin: 0rem;
   padding: 0;
   box-sizing: border-box;
   background-color: #2C2A2A;
@@ -8,6 +8,7 @@
 }
 
 .header {
+  margin: 1.9rem;
   display: flex;
   justify-content: space-between;
   color: white;
@@ -40,6 +41,12 @@
 .main {
   color: white;
 }
+.main .main__portfolio-header {
+  margin: 1.5rem;
+}
+.main .main__section-1 {
+  margin: 1.5rem;
+}
 .main .main__section-1 .main__section-1__header {
   font-size: 5rem;
   font-weight: 400;
@@ -52,11 +59,39 @@
 }
 .main .main__section-2 {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main .main__section-2 .main__section-2__card {
+  margin-top: 1.5rem;
+}
+.main .main__section-2 .main__section-2__card .main__section-2__card__buttons .main__section-2__card__buttons__button {
+  text-decoration: none;
+  font: "cormorant";
+  color: white;
+  border: #3C3636;
+  background-color: #3C3636;
+  padding-block: 0.2rem;
+  padding-inline: 1rem;
+  margin-right: 0.2rem;
+}
+.main .main__section-2 .main__section-2__card .main__section-2__card__rectangle {
+  width: 5.7rem;
+  height: 0.0625rem;
+  background-color: #D9BEA5;
+  margin-block: 1rem;
 }
 .main .main__section-2 .main__section-2__card .main__section-2__card__title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__text {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__buttons {
+  display: flex;
 }
 .main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__buttons .main__section-2__card__title__buttons__button {
   display: flex;
@@ -67,8 +102,5 @@
 }
 .main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__buttons .main__section-2__card__title__buttons__button .main__section-2__card__title__buttons__button-image {
   background-color: #3C3636;
-}
-.main .main__section-2 .main__section-2__card .main__section-2__card__image {
-  width: 20.7rem;
-  height: auto;
+  color: #3C3636;
 }
