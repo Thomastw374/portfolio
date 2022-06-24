@@ -41,6 +41,32 @@
 .main {
   color: white;
 }
+.main .main__about-section {
+  margin: 1.5rem;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__rectangle {
+  width: 3rem;
+  height: 0.13rem;
+  background: #D9BEA5;
+  margin-block: 2rem;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__exp .main__about-section__exp-int__exp__rectangle {
+  width: 3rem;
+  height: 0.13rem;
+  background: #D9BEA5;
+  margin-block: 2rem;
+}
+.main .main__about-section .main__about-section__bio .main__about-section__bio__title {
+  font: "cormorant";
+  font-weight: 700;
+  font-size: 1rem;
+}
+.main .main__about-section .main__about-section__bio .main__about-section__bio__rectangle {
+  width: 3rem;
+  height: 0.13rem;
+  background: #D9BEA5;
+  margin-block: 2rem;
+}
 .main .main__portfolio-header {
   margin: 1.5rem;
 }
