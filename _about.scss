@@ -1,15 +1,17 @@
 .main__bio__title {
         font: $title-font;
         font-weight: 700;
-        font-size: 1rem;
-        margin: 2rem;
+        font-size: 2rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
       }
 
       .main__bio__rectangle {
         width: 3rem;
         height: 0.13rem;
         background: $secondary-color;
-        margin: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
       }
 
 .main {
@@ -84,4 +86,19 @@
     }
   }
 
+
+  @media screen and (min-width: 768px) {
+    .main {
+      .main__about-section {
+        
+      .main__about-section__exp-int {
+          display: flex;
+          flex-direction: row;
+          .main__about-section__exp-int__exp {
+            margin-right: 6rem;
+          }
+        }
+      }
+    }
+}
         
