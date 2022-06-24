@@ -1,3 +1,7 @@
+@import "variables";
+@import "about";
+@import "intro-and-projects";
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Inter&display=swap');
 
 * {
@@ -7,13 +11,6 @@
     background-color: #2C2A2A;
     font-family: "cormorant", "inter",sans-serif;
 }
-
-$title-font: "cormorant";
-$main-text-font: "inter";
-$primary-color: white;
-$secondary-color: #D9BEA5;
-$tertiary-color: #3C3636;
-
 
 .header {
     margin: 1.9rem;
@@ -49,123 +46,45 @@ $tertiary-color: #3C3636;
 
 }
 
-.main {
-    color: $primary-color;
 
-    .main__about-section {
-        margin: 1.5rem;
 
-        .main__about-section__exp-int {
-            .main__about-section__exp-int__int {
-                
-                .main__about-section__exp-int__int__rectangle {
-                    width: 3rem;
-                    height: 0.13rem;
-                    background: $secondary-color;
-                    margin-block: 2rem;
-                }
-            }
+.contact__button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
-            .main__about-section__exp-int__exp {
-                .main__about-section__exp-int__exp__rectangle {
-                    width: 3rem;
-                    height: 0.13rem;
-                    background: $secondary-color;
-                    margin-block: 2rem;
-                }
-            }
-        }
-
-        .main__about-section__bio {
-
-            .main__about-section__bio__title {
-                font: $title-font;
-                font-weight: 700;
-                font-size: 1rem;
-            }
-
-            .main__about-section__bio__rectangle {
-                width: 3rem;
-                height: 0.13rem;
-                background: $secondary-color;
-                margin-block: 2rem;
-            }
-
-        }
-    }
-
-    .main__portfolio-header {
-        margin: 1.5rem;
-    }
-
-    .main__section-1 {
-        margin: 1.5rem;
-        .main__section-1__header {
-            font-size: 5rem;
-            font-weight: 400;
-        }
-
-        .main__section-1__rectangle {
-            width: 6rem;
-            height: 0.25rem;
-            background: $secondary-color;
-            margin-block: 2rem;
-        }
-    }
-
-    .main__section-2 {
+    .contact__button__link {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        .main__section-2__card {
-            margin-top: 1.5rem;
-            .main__section-2__card__buttons {
-                .main__section-2__card__buttons__button {
-                    text-decoration: none;
-                    font: $title-font;
-                    color: $primary-color;
-                    border: $tertiary-color;
-                    background-color: $tertiary-color;
-                    padding-block: 0.2rem;
-                    padding-inline: 1rem;
-                    margin-right: 0.2rem;
-                    
-                }
-            }
-            .main__section-2__card__rectangle {
-                width: 5.7rem;
-                height: 0.0625rem;
-                background-color: $secondary-color;
-                margin-block: 1rem;
-            }
+        justify-content: center;
+        width: 5rem;
+        text-decoration: none;
+        color: $primary-color;
+        background-color: $tertiary-color;
+        border: 1px solid $secondary-color;
+        padding-inline: 3rem;
+        padding-block: 0.8rem;
+        margin: 1.5rem;
+    }
     
-            .main__section-2__card__title {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
+}
 
-                .main__section-2__card__title__text {
-                    font-size: 2rem;
-                    font-weight: 400;
-                }
-                .main__section-2__card__title__buttons {
-                    display: flex;
-                    .main__section-2__card__title__buttons__button {
-                    display: flex;
-                    justify-content: center;
-                    background-color: $tertiary-color;
-                    border: 2px solid $tertiary-color;
-                    border-radius: 50%;
+.contact__text {
+    display: flex;
+    justify-content: center;
+}
 
-                .main__section-2__card__title__buttons__button-image {
-                    background-color: $tertiary-color;
-                    color: $tertiary-color;
-                }
-                
-                }
-               } 
-            }
-            
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: $tertiary-color;
+    border: $tertiary-color;
+    height: 4rem;
+    .footer__images {
+        background-color: $tertiary-color;
+        .footer__images__image {
+            background-color: $tertiary-color;
+            padding-top: 0.4rem;
+            padding-inline: 0.4rem;
         }
     }
 }

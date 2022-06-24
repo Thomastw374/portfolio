@@ -1,60 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Inter&display=swap");
-* {
-  margin: 0rem;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #2C2A2A;
-  font-family: "cormorant", "inter", sans-serif;
-}
-
-.header {
-  margin: 1.9rem;
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  margin-bottom: 3.5rem;
-}
-.header .header__title {
-  font: "cormorant";
-  font-size: 1.3rem;
-}
-.header .header__title--alt-color {
-  color: #D9BEA5;
-}
-.header .header__menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.header .header__menu .header__menu__rectangle-1 {
-  width: 1.56rem;
-  height: 0.06rem;
-  background: #FFFFFF;
-  margin-bottom: 0.2rem;
-}
-.header .header__menu .header__menu__rectangle-2 {
-  width: 1.13rem;
-  height: 0.06rem;
-  background: #FFFFFF;
-}
-
-.main {
-  color: white;
-}
 .main .main__about-section {
   margin: 1.5rem;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int {
+  margin-top: 1rem;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__dropdown .main__about-section__exp-int__int__dropdown__text {
+  font: "inter";
+  font-weight: 400;
 }
 .main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__rectangle {
   width: 3rem;
   height: 0.13rem;
   background: #D9BEA5;
-  margin-block: 2rem;
+  margin-block: 0.2rem .main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__rectangle --;
+  margin-block-width: fit;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__exp {
+  margin-top: 1rem;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__exp .main__about-section__exp-int__exp__rectangle {
+  width: 1.56rem;
+  height: 0.06rem;
+  background: #FFFFFF;
+  margin-bottom: 0rem;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__exp .main__about-section__exp-int__exp__dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__exp .main__about-section__exp-int__exp__dropdown .main__about-section__exp-int__exp__dropdown__text {
+  font: "inter";
+  font-weight: lighter;
 }
 .main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__exp .main__about-section__exp-int__exp__rectangle {
   width: 3rem;
   height: 0.13rem;
   background: #D9BEA5;
-  margin-block: 2rem;
+  margin-block: 0.2rem;
+}
+.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__exp .main__about-section__exp-int__exp__rectangle-- {
+  width: fit;
 }
 .main .main__about-section .main__about-section__bio .main__about-section__bio__title {
   font: "cormorant";
@@ -66,6 +58,10 @@
   height: 0.13rem;
   background: #D9BEA5;
   margin-block: 2rem;
+}
+
+.main {
+  color: white;
 }
 .main .main__portfolio-header {
   margin: 1.5rem;
@@ -129,4 +125,82 @@
 .main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__buttons .main__section-2__card__title__buttons__button .main__section-2__card__title__buttons__button-image {
   background-color: #3C3636;
   color: #3C3636;
+}
+
+* {
+  margin: 0rem;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2C2A2A;
+  font-family: "cormorant", "inter", sans-serif;
+}
+
+.header {
+  margin: 1.9rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 3.5rem;
+}
+.header .header__title {
+  font: "cormorant";
+  font-size: 1.3rem;
+}
+.header .header__title--alt-color {
+  color: #D9BEA5;
+}
+.header .header__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .header__menu .header__menu__rectangle-1 {
+  width: 1.56rem;
+  height: 0.06rem;
+  background: #FFFFFF;
+  margin-bottom: 0.2rem;
+}
+.header .header__menu .header__menu__rectangle-2 {
+  width: 1.13rem;
+  height: 0.06rem;
+  background: #FFFFFF;
+}
+
+.contact__button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.contact__button .contact__button__link {
+  display: flex;
+  justify-content: center;
+  width: 5rem;
+  text-decoration: none;
+  color: white;
+  background-color: #3C3636;
+  border: 1px solid #D9BEA5;
+  padding-inline: 3rem;
+  padding-block: 0.8rem;
+  margin: 1.5rem;
+}
+
+.contact__text {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #3C3636;
+  border: #3C3636;
+  height: 4rem;
+}
+.footer .footer__images {
+  background-color: #3C3636;
+}
+.footer .footer__images .footer__images__image {
+  background-color: #3C3636;
+  padding-top: 0.4rem;
+  padding-inline: 0.4rem;
 }

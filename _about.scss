@@ -1,0 +1,86 @@
+
+
+
+.main {
+
+    .main__about-section {
+        margin: 1.5rem;
+
+        .main__about-section__exp-int {
+            .main__about-section__exp-int__int {
+                margin-top: 1rem;
+                
+                .main__about-section__exp-int__int__dropdown {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .main__about-section__exp-int__int__dropdown__text {
+                        font: $main-text-font;
+                        font-weight: 400;
+                        
+                    }
+                }
+                .main__about-section__exp-int__int__rectangle {
+                    width: 3rem;
+                    height: 0.13rem;
+                    background: $secondary-color;
+                    margin-block: 0.2rem
+
+                    &-- {
+                        width: fit;
+                    }
+                }
+            }
+
+            .main__about-section__exp-int__exp {
+                margin-top: 1rem;
+
+                .main__about-section__exp-int__exp__rectangle {
+                width: 1.56rem;
+                height: 0.06rem;
+                background: #FFFFFF;
+                margin-bottom: 0rem;
+                }
+
+                .main__about-section__exp-int__exp__dropdown {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .main__about-section__exp-int__exp__dropdown__text {
+                        font: $main-text-font;
+                        font-weight: lighter
+                    }
+                }
+                .main__about-section__exp-int__exp__rectangle {
+                    width: 3rem;
+                    height: 0.13rem;
+                    background: $secondary-color;
+                    margin-block: 0.2rem;
+                    
+                    &-- {
+                        width: fit;
+                    }
+                }
+            }
+        }
+
+        .main__about-section__bio {
+
+            .main__about-section__bio__title {
+                font: $title-font;
+                font-weight: 700;
+                font-size: 1rem;
+            }
+
+            .main__about-section__bio__rectangle {
+                width: 3rem;
+                height: 0.13rem;
+                background: $secondary-color;
+                margin-block: 2rem;
+            }
+
+        }
+    }
+}
