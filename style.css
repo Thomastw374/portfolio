@@ -67,6 +67,9 @@
 .main .main__about-section .main__about-section__exp-int__exp .main__about-section__exp-int__exp__rectangle--long {
   width: auto;
 }
+.main .main__about-section__bio-alternate {
+  display: none;
+}
 .main .main__about-section__bio {
   display: flex;
   flex-direction: column;
@@ -82,6 +85,17 @@
   }
   .main .main__bio__rectangle {
     display: none;
+  }
+  .main .main__about-section .main__about-section__bio-alternate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main .main__about-section .main__about-section__bio-alternate .main__about-section__bio-alternate__title-and-image .main__bio-alternate__title-and-image__rectangle {
+    width: 3rem;
+    height: 0.13rem;
+    background: #D9BEA5;
+    margin-block: 0.2rem;
   }
   .main .main__about-section .main__about-section__bio {
     display: none;

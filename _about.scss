@@ -80,6 +80,10 @@
       }
     }
 
+    .main__about-section__bio-alternate {
+      display: none;
+    }
+
     .main__about-section__bio {
         display: flex;
         flex-direction: column;
@@ -104,6 +108,21 @@
         }
 
       .main__about-section {
+
+        .main__about-section__bio-alternate {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .main__about-section__bio-alternate__title-and-image {
+            .main__bio-alternate__title-and-image__rectangle {
+              width: 3rem;
+              height: 0.13rem;
+              background: $secondary-color;
+              margin-block: 0.2rem;
+            }
+          }
+        }
+
         .main__about-section__bio {
           display: none;
         }
