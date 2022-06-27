@@ -33,6 +33,10 @@
         align-items: center;
         .main__section-2__card {
             margin-top: 1.5rem;
+
+            &--extra {
+                display: none;
+            }
             .main__section-2__card__buttons {
                 .main__section-2__card__buttons__button {
                     text-decoration: none;
@@ -97,6 +101,10 @@
             flex-wrap: wrap;
 
             .main__section-2__card {
+
+                &--extra {
+                    display: inline;
+                }
                 .main__section-2__card__image {
                     width: 24.7rem;
             }

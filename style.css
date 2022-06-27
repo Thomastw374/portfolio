@@ -139,6 +139,9 @@
 .main .main__section-2 .main__section-2__card {
   margin-top: 1.5rem;
 }
+.main .main__section-2 .main__section-2__card--extra {
+  display: none;
+}
 .main .main__section-2 .main__section-2__card .main__section-2__card__buttons .main__section-2__card__buttons__button {
   text-decoration: none;
   font: "cormorant";
@@ -188,6 +191,9 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+  }
+  .main .main__section-2 .main__section-2__card--extra {
+    display: inline;
   }
   .main .main__section-2 .main__section-2__card .main__section-2__card__image {
     width: 24.7rem;
