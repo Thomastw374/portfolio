@@ -203,7 +203,7 @@
   margin: 0rem;
   padding: 0;
   box-sizing: border-box;
-  background-color: #2C2A2A;
+  background-color: #2c2a2a;
   font-family: "cormorant", "inter", sans-serif;
 }
 
@@ -229,39 +229,43 @@
 .header .header__menu .header__menu__rectangle-1 {
   width: 1.56rem;
   height: 0.06rem;
-  background: #FFFFFF;
+  background: #ffffff;
   margin-bottom: 0.2rem;
 }
 .header .header__menu .header__menu__rectangle-2 {
   width: 1.13rem;
   height: 0.06rem;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .header .header__menu-alternative {
   display: none;
 }
 
-.contact__button {
+.main__contact-button {
   display: flex;
   justify-content: center;
   align-content: center;
 }
-.contact__button .contact__button__link {
+.main__contact-button .main__contact-button__link {
   display: flex;
   justify-content: center;
-  width: 5rem;
   text-decoration: none;
   color: white;
   background-color: #3C3636;
+  font-size: 1.3rem;
   border: 1px solid #D9BEA5;
-  padding-inline: 3rem;
-  padding-block: 0.8rem;
+  padding-inline: 6.2rem;
+  padding-block: 1.2rem;
   margin: 1.5rem;
 }
 
-.contact__text {
+.main__contact-text {
   display: flex;
   justify-content: center;
+  margin-block: 2rem;
+}
+.main__contact-text .main__contact-text__text {
+  font-size: 3rem;
 }
 
 .footer {
