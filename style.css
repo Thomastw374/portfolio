@@ -30,6 +30,7 @@
 }
 .main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__dropdown .main__about-section__exp-int__int__dropdown__text {
   font: "inter";
+  font-size: 1rem;
   font-weight: 400;
 }
 .main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__rectangle {
@@ -51,7 +52,8 @@
 }
 .main .main__about-section .main__about-section__exp-int__exp .main__about-section__exp-int__exp__dropdown .main__about-section__exp-int__exp__dropdown__text {
   font: "inter";
-  font-weight: lighter;
+  font-size: 1rem;
+  line-height: 160%;
 }
 .main .main__about-section .main__about-section__exp-int__exp .main__about-section__exp-int__exp__rectangle {
   width: 3rem;
@@ -94,7 +96,7 @@
   font-weight: 400;
 }
 .main .main__section-1 .main__section-1__bio {
-  max-width: 400px;
+  max-width: 25rem;
   height: auto;
 }
 .main .main__section-1 .main__section-1__rectangle {
@@ -203,6 +205,9 @@
   height: 0.06rem;
   background: #FFFFFF;
 }
+.header .header__menu-alternative {
+  display: none;
+}
 
 .contact__button {
   display: flex;
@@ -241,4 +246,28 @@
   background-color: #3C3636;
   padding-top: 0.4rem;
   padding-inline: 0.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    margin-inline: 7.5rem;
+  }
+  .header .header__menu-alternative {
+    display: flex;
+    justify-content: space-around;
+  }
+  .header .header__menu-alternative .header__menu-alternative__text {
+    text-decoration: none;
+    color: white;
+    margin-inline: 0.4rem;
+  }
+  .header .header__menu {
+    display: none;
+  }
+  .header .header__menu .header__menu__rectangle-1 {
+    display: none;
+  }
+  .header .header__menu .header__menu__rectangle-2 {
+    display: none;
+  }
 }

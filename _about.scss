@@ -31,6 +31,7 @@
 
           .main__about-section__exp-int__int__dropdown__text {
             font: $main-text-font;
+            font-size: 1rem;
             font-weight: 400;
           }
         }
@@ -58,7 +59,8 @@
 
           .main__about-section__exp-int__exp__dropdown__text {
             font: $main-text-font;
-            font-weight: lighter;
+            font-size: 1rem;
+            line-height: 160%;
           }
         }
         .main__about-section__exp-int__exp__rectangle {
