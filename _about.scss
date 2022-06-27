@@ -19,6 +19,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+    .main__about-section__bio-alternate {
+      display: none;
+    }
 
     .main__about-section__exp-int {
       .main__about-section__exp-int__int {
@@ -91,9 +95,20 @@
 
   @media screen and (min-width: 768px) {
     .main {
+        .main__bio__title {
+          display: none;
+        }
+
+        .main__bio__rectangle {
+          display: none;
+        }
+
       .main__about-section {
+        .main__about-section__bio {
+          display: none;
+        }
         
-      .main__about-section__exp-int {
+        .main__about-section__exp-int {
           display: flex;
           flex-direction: row;
           .main__about-section__exp-int__exp {
