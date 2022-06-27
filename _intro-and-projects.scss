@@ -10,11 +10,13 @@
         .main__section-1__header {
             font-size: 5rem;
             font-weight: 400;
+        }
 
-            .main__section-1__bio {
-                // max-width: 5rem;
-                // word-wrap: break-word;
-            }
+ 
+        .main__section-1__bio {
+            max-width: 400px;
+            height: auto;
+
         }
 
         .main__section-1__rectangle {
@@ -86,15 +88,17 @@
     
     .main {
         margin-inline: 6rem;
-    .main__section-2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
 
-        .main__section-2__card {
-            .main__section-2__card__image {
-                width: 24.7rem;
+
+        .main__section-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            .main__section-2__card {
+                .main__section-2__card__image {
+                    width: 24.7rem;
             }
         }
     }
