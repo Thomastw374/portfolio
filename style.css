@@ -106,7 +106,7 @@
     justify-content: space-between;
   }
   .main .main__about-section .main__about-section__bio-alternate .main__about-section__bio-alternate__title-and-image .main__bio-alternate__title-and-image__title {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
   .main .main__about-section .main__about-section__bio-alternate .main__about-section__bio-alternate__title-and-image .main__bio-alternate__title-and-image__rectangle {
     width: 3rem;
@@ -120,7 +120,7 @@
   .main .main__about-section .main__about-section__exp-int {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
   }
 }
@@ -278,7 +278,7 @@
 .main__contact-text {
   display: flex;
   justify-content: center;
-  margin-block: 2rem;
+  margin-block: 3.2rem;
 }
 .main__contact-text .main__contact-text__text {
   font-size: 3rem;
