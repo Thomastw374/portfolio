@@ -5,26 +5,27 @@
         margin: 1.5rem;
     }
 
-    .main__section-1 {
-        margin: 1.5rem;
-        .main__section-1__header {
+    .main__intro-header {
             font-size: 5rem;
             font-weight: 400;
-        }
+    }
 
- 
-        .main__section-1__bio {
+    .main__bio {
             max-width: 25rem;
             height: auto;
 
-        }
+    }
 
-        .main__section-1__rectangle {
+    .main__rectangle-1 {
             width: 6rem;
             height: 0.25rem;
             background: $secondary-color;
             margin-block: 2rem;
-        }
+    }
+    
+    .main__section-1 {
+        margin: 1.5rem;
+
     }
 
     .main__section-2 {
