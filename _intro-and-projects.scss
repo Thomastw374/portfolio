@@ -1,116 +1,113 @@
 .main {
-    color: $primary-color;
+  color: $primary-color;
 
-    .main__portfolio-header {
-        margin: 1.5rem;
+  .main__portfolio-header {
+    margin: 1.5rem;
+  }
+
+  .main__intro-header {
+    font-size: 5rem;
+    font-weight: 400;
+  }
+
+  .main__bio {
+    max-width: 25rem;
+    height: auto;
+  }
+
+  .main__rectangle-1 {
+    width: 6rem;
+    height: 0.25rem;
+    background: $secondary-color;
+    margin-block: 2rem;
+  }
+
+  .main__section-1 {
+    margin: 1.5rem;
+  }
+
+  .main__section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .main__section-2-button {
+      text-decoration: none;
+      font: $title-font;
+      color: $primary-color;
+      border: $tertiary-color;
+      background-color: $tertiary-color;
+      padding-block: 0.2rem;
+      padding-inline: 1rem;
+      margin-right: 0.2rem;
     }
 
-    .main__intro-header {
-            font-size: 5rem;
-            font-weight: 400;
+    .main__section-2-buttons-container {
     }
 
-    .main__bio {
-            max-width: 25rem;
-            height: auto;
-
+    .main__section-2-rectangle {
+      width: 5.7rem;
+      height: 0.0625rem;
+      background-color: $secondary-color;
+      margin-block: 1rem;
     }
 
-    .main__rectangle-1 {
-            width: 6rem;
-            height: 0.25rem;
-            background: $secondary-color;
-            margin-block: 2rem;
+    .main__section-2__card-title-text {
+      font-size: 2rem;
+      font-weight: 400;
     }
-    
-    .main__section-1 {
-        margin: 1.5rem;
 
+    .main__section-2-card {
+      margin-top: 1.5rem;
+
+      &--extra {
+        display: none;
+      }
+
+      .main__section-2-card-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .main__section-2__card__title__buttons {
+          display: flex;
+          .main__section-2__card__title__buttons__button {
+            display: flex;
+            justify-content: center;
+            background-color: $tertiary-color;
+            border: 2px solid $tertiary-color;
+            border-radius: 50%;
+
+            .main__section-2__card__title__buttons__button-image {
+              background-color: $tertiary-color;
+              color: $tertiary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    margin-inline: 6rem;
+
+    .main__section-2-card-image {
+      width: 24.7rem;
+    }
+
+    .main__section-2-card {
+      &--extra {
+        display: inline;
+      }
     }
 
     .main__section-2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .main__section-2__card {
-            margin-top: 1.5rem;
-
-            &--extra {
-                display: none;
-            }
-            .main__section-2__card__buttons {
-                .main__section-2__card__buttons__button {
-                    text-decoration: none;
-                    font: $title-font;
-                    color: $primary-color;
-                    border: $tertiary-color;
-                    background-color: $tertiary-color;
-                    padding-block: 0.2rem;
-                    padding-inline: 1rem;
-                    margin-right: 0.2rem;
-                    
-                }
-            }
-            .main__section-2__card__rectangle {
-                width: 5.7rem;
-                height: 0.0625rem;
-                background-color: $secondary-color;
-                margin-block: 1rem;
-            }
-    
-            .main__section-2__card__title {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-
-                .main__section-2__card__title__text {
-                    font-size: 2rem;
-                    font-weight: 400;
-                }
-                .main__section-2__card__title__buttons {
-                    display: flex;
-                    .main__section-2__card__title__buttons__button {
-                    display: flex;
-                    justify-content: center;
-                    background-color: $tertiary-color;
-                    border: 2px solid $tertiary-color;
-                    border-radius: 50%;
-
-                .main__section-2__card__title__buttons__button-image {
-                    background-color: $tertiary-color;
-                    color: $tertiary-color;
-                }
-                
-                }
-               } 
-            }
-            
-        }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
     }
-}
-
-@media screen and (min-width:768px) {
-    
-    .main {
-        margin-inline: 6rem;
-
-
-        .main__section-2 {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            flex-wrap: wrap;
-
-            .main__section-2__card {
-
-                &--extra {
-                    display: inline;
-                }
-                .main__section-2__card__image {
-                    width: 24.7rem;
-            }
-        }
-    }
-            
-    }
+  }
 }

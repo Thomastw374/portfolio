@@ -152,13 +152,7 @@
   flex-direction: column;
   align-items: center;
 }
-.main .main__section-2 .main__section-2__card {
-  margin-top: 1.5rem;
-}
-.main .main__section-2 .main__section-2__card--extra {
-  display: none;
-}
-.main .main__section-2 .main__section-2__card .main__section-2__card__buttons .main__section-2__card__buttons__button {
+.main .main__section-2 .main__section-2-button {
   text-decoration: none;
   font: "cormorant";
   color: white;
@@ -168,32 +162,38 @@
   padding-inline: 1rem;
   margin-right: 0.2rem;
 }
-.main .main__section-2 .main__section-2__card .main__section-2__card__rectangle {
+.main .main__section-2 .main__section-2-rectangle {
   width: 5.7rem;
   height: 0.0625rem;
   background-color: #D9BEA5;
   margin-block: 1rem;
 }
-.main .main__section-2 .main__section-2__card .main__section-2__card__title {
+.main .main__section-2 .main__section-2__card-title-text {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.main .main__section-2 .main__section-2-card {
+  margin-top: 1.5rem;
+}
+.main .main__section-2 .main__section-2-card--extra {
+  display: none;
+}
+.main .main__section-2 .main__section-2-card .main__section-2-card-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__text {
-  font-size: 2rem;
-  font-weight: 400;
-}
-.main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__buttons {
+.main .main__section-2 .main__section-2-card .main__section-2-card-title .main__section-2__card__title__buttons {
   display: flex;
 }
-.main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__buttons .main__section-2__card__title__buttons__button {
+.main .main__section-2 .main__section-2-card .main__section-2-card-title .main__section-2__card__title__buttons .main__section-2__card__title__buttons__button {
   display: flex;
   justify-content: center;
   background-color: #3C3636;
   border: 2px solid #3C3636;
   border-radius: 50%;
 }
-.main .main__section-2 .main__section-2__card .main__section-2__card__title .main__section-2__card__title__buttons .main__section-2__card__title__buttons__button .main__section-2__card__title__buttons__button-image {
+.main .main__section-2 .main__section-2-card .main__section-2-card-title .main__section-2__card__title__buttons .main__section-2__card__title__buttons__button .main__section-2__card__title__buttons__button-image {
   background-color: #3C3636;
   color: #3C3636;
 }
@@ -202,17 +202,17 @@
   .main {
     margin-inline: 6rem;
   }
+  .main .main__section-2-card-image {
+    width: 24.7rem;
+  }
+  .main .main__section-2-card--extra {
+    display: inline;
+  }
   .main .main__section-2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  .main .main__section-2 .main__section-2__card--extra {
-    display: inline;
-  }
-  .main .main__section-2 .main__section-2__card .main__section-2__card__image {
-    width: 24.7rem;
   }
 }
 * {
