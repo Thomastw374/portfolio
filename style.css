@@ -1,127 +1,125 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Inter&display=swap");
-.main__bio__title {
+.main .main__bio-title {
   font: "cormorant";
   font-weight: 700;
   font-size: 2rem;
   margin-left: 2rem;
   margin-top: 2rem;
 }
-
-.main__bio__rectangle {
+.main .main__bio-rectangle {
   width: 3rem;
   height: 0.13rem;
   background: #D9BEA5;
   margin-left: 2rem;
   margin-bottom: 2rem;
 }
-
+.main .main__about-section-bio-alternate {
+  display: none;
+}
+.main .main__about-section-exp-int-int-rectangle {
+  width: 3rem;
+  height: 0.13rem;
+  background: #3C3636;
+  margin-block: 0.2rem;
+}
+.main .main__about-section-exp-int-int-rectangle--long {
+  width: auto;
+}
+.main .main__about-section-exp-int-int-rectangle--primary {
+  background: #D9BEA5;
+}
+.main .main__about-section-exp-int-int-dropdown-text {
+  font: "inter";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+.main .main__about-section-exp-int-int-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .main__about-section-exp-int-int {
+  margin-top: 1rem;
+  width: 20rem;
+}
+.main .main__about-section-exp-int-exp-dropdown-text {
+  font: "inter";
+  font-size: 1rem;
+  line-height: 160%;
+  font-weight: 400;
+}
+.main .main__about-section-exp-int-exp {
+  margin-top: 1rem;
+  width: 20rem;
+}
+.main .main__about-section-exp-int-exp-rectangle {
+  width: 3rem;
+  height: 0.13rem;
+  background: #3C3636;
+  margin-block: 0.2rem;
+}
+.main .main__about-section-exp-int-exp-rectangle--long {
+  width: auto;
+}
+.main .main__about-section-exp-int-exp-rectangle--primary {
+  background: #D9BEA5;
+}
+.main .main__about-section-exp-int-exp-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .main .main__about-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main .main__about-section .main__about-section__bio-alternate {
+.main .main__about-section-bio-alternate {
   display: none;
 }
-.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int {
-  margin-top: 1rem;
-  width: 20rem;
+.main .main__about-section-bio-text {
+  margin: 2rem;
 }
-.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__dropdown {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__dropdown .main__about-section__exp-int__int__dropdown__text {
-  font: "inter";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 160%;
-}
-.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__rectangle {
-  width: 3rem;
-  height: 0.13rem;
-  background: #3C3636;
-  margin-block: 0.2rem;
-}
-.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__rectangle--long {
-  width: auto;
-}
-.main .main__about-section .main__about-section__exp-int .main__about-section__exp-int__int .main__about-section__exp-int__int__rectangle--primary {
-  background: #D9BEA5;
-}
-.main .main__about-section .main__about-section__exp-int__exp {
-  margin-top: 1rem;
-  width: 20rem;
-}
-.main .main__about-section .main__about-section__exp-int__exp .main__about-section__exp-int__exp__dropdown {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main .main__about-section .main__about-section__exp-int__exp .main__about-section__exp-int__exp__dropdown .main__about-section__exp-int__exp__dropdown__text {
-  font: "inter";
-  font-size: 1rem;
-  line-height: 160%;
-  font-weight: 400;
-}
-.main .main__about-section .main__about-section__exp-int__exp .main__about-section__exp-int__exp__rectangle {
-  width: 3rem;
-  height: 0.13rem;
-  background: #3C3636;
-  margin-block: 0.2rem;
-}
-.main .main__about-section .main__about-section__exp-int__exp .main__about-section__exp-int__exp__rectangle--long {
-  width: auto;
-}
-.main .main__about-section .main__about-section__exp-int__exp .main__about-section__exp-int__exp__rectangle--primary {
-  background: #D9BEA5;
-}
-.main .main__about-section__bio-alternate {
-  display: none;
-}
-.main .main__about-section__bio {
+.main .main__about-section-bio {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main .main__about-section__bio .main__about-section__bio__text {
-  margin: 2rem;
-}
 
 @media screen and (min-width: 768px) {
-  .main .main__bio__title {
+  .main .main__bio-title {
     display: none;
   }
-  .main .main__bio__rectangle {
+  .main .main__bio-rectangle {
     display: none;
   }
-  .main .main__about-section {
-    margin: 1.5rem;
-    margin-top: 2rem;
-  }
-  .main .main__about-section .main__about-section__bio-alternate {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .main .main__about-section .main__about-section__bio-alternate .main__about-section__bio-alternate__title-and-image .main__bio-alternate__title-and-image__title {
+  .main .main__bio-alternate-title-and-image-title {
     font-size: 2.5rem;
   }
-  .main .main__about-section .main__about-section__bio-alternate .main__about-section__bio-alternate__title-and-image .main__bio-alternate__title-and-image__rectangle {
+  .main .main__bio-alternate-title-and-image-rectangle {
     width: 3rem;
     height: 0.13rem;
     background: #D9BEA5;
     margin-block: 0.2rem;
   }
-  .main .main__about-section .main__about-section__bio {
+  .main .main__about-section-bio-alternate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main .main__about-section-bio {
     display: none;
   }
-  .main .main__about-section .main__about-section__exp-int {
+  .main .main__about-section-exp-int {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+  }
+  .main .main__about-section {
+    margin: 1.5rem;
+    margin-top: 2rem;
   }
 }
 .main {
@@ -147,12 +145,7 @@
 .main .main__section-1 {
   margin: 1.5rem;
 }
-.main .main__section-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.main .main__section-2 .main__section-2-button {
+.main .main__section-2-button {
   text-decoration: none;
   font: "cormorant";
   color: white;
@@ -162,40 +155,39 @@
   padding-inline: 1rem;
   margin-right: 0.2rem;
 }
-.main .main__section-2 .main__section-2-rectangle {
+.main .main__section-2-rectangle {
   width: 5.7rem;
   height: 0.0625rem;
   background-color: #D9BEA5;
   margin-block: 1rem;
 }
-.main .main__section-2 .main__section-2__card-title-text {
+.main .main__section-2-card-title-text {
   font-size: 2rem;
   font-weight: 400;
 }
-.main .main__section-2 .main__section-2-card {
-  margin-top: 1.5rem;
+.main .main__section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.main .main__section-2 .main__section-2-card--extra {
-  display: none;
+.main .main__section-2-card-button-image {
+  background-color: #3C3636;
+  color: #3C3636;
 }
-.main .main__section-2 .main__section-2-card .main__section-2-card-title {
+.main .main__section-2-card-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.main .main__section-2 .main__section-2-card .main__section-2-card-title .main__section-2__card__title__buttons {
-  display: flex;
-}
-.main .main__section-2 .main__section-2-card .main__section-2-card-title .main__section-2__card__title__buttons .main__section-2__card__title__buttons__button {
+.main .main__section-2-card-title-button {
   display: flex;
   justify-content: center;
   background-color: #3C3636;
   border: 2px solid #3C3636;
   border-radius: 50%;
 }
-.main .main__section-2 .main__section-2-card .main__section-2-card-title .main__section-2__card__title__buttons .main__section-2__card__title__buttons__button .main__section-2__card__title__buttons__button-image {
-  background-color: #3C3636;
-  color: #3C3636;
+.main .main__section-2-card-title-buttons {
+  display: flex;
 }
 
 @media screen and (min-width: 768px) {

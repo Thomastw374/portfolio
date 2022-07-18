@@ -1,157 +1,158 @@
-.main__bio__title {
-        font: $title-font;
-        font-weight: 700;
-        font-size: 2rem;
-        margin-left: 2rem;
-        margin-top: 2rem;
-      }
-
-      .main__bio__rectangle {
-        width: 3rem;
-        height: 0.13rem;
-        background: $secondary-color;
-        margin-left: 2rem;
-        margin-bottom: 2rem;
-      }
-
 .main {
+  .main__bio-title {
+    font: $title-font;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .main__bio-rectangle {
+    width: 3rem;
+    height: 0.13rem;
+    background: $secondary-color;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .main__about-section-bio-alternate {
+    display: none;
+  }
+
+  .main__about-section-exp-int-int-rectangle {
+    width: 3rem;
+    height: 0.13rem;
+    background: $tertiary-color;
+    margin-block: 0.2rem;
+
+    &--long {
+      width: auto;
+    }
+
+    &--primary {
+      background: $secondary-color;
+    }
+  }
+
+  .main__about-section-exp-int-int-dropdown-text {
+    font: $main-text-font;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 160%;
+  }
+
+  .main__about-section-exp-int-int-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main__about-section-exp-int {
+  }
+
+  .main__about-section-exp-int-int {
+    margin-top: 1rem;
+    width: 20rem;
+  }
+
+  .main__about-section-exp-int-exp-dropdown-text {
+    font: $main-text-font;
+    font-size: 1rem;
+    line-height: 160%;
+    font-weight: 400;
+  }
+
+  .main__about-section-exp-int-exp {
+    margin-top: 1rem;
+    width: 20rem;
+  }
+
+  .main__about-section-exp-int-exp-rectangle {
+    width: 3rem;
+    height: 0.13rem;
+    background: $tertiary-color;
+    margin-block: 0.2rem;
+
+    &--long {
+      width: auto;
+    }
+
+    &--primary {
+      background: $secondary-color;
+    }
+  }
+
+  .main__about-section-exp-int-exp-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .main__about-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    .main__about-section__bio-alternate {
-      display: none;
-    }
-
-    .main__about-section__exp-int {
-      .main__about-section__exp-int__int {
-        margin-top: 1rem;
-        width: 20rem;
-
-        .main__about-section__exp-int__int__dropdown {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-
-          .main__about-section__exp-int__int__dropdown__text {
-            font: $main-text-font;
-            font-size: 1rem;
-            font-weight: 400;
-            line-height: 160%;
-          }
-        }
-        .main__about-section__exp-int__int__rectangle {
-          width: 3rem;
-          height: 0.13rem;
-          background: $tertiary-color;
-          margin-block: 0.2rem;
-
-          &--long {
-            width: auto;
-          }
-
-          &--primary {
-            background: $secondary-color;
-          }
-
-          }
-        }
-      }
-
-      .main__about-section__exp-int__exp {
-        margin-top: 1rem;
-        width: 20rem;
-
-        .main__about-section__exp-int__exp__dropdown {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-
-          .main__about-section__exp-int__exp__dropdown__text {
-            font: $main-text-font;
-            font-size: 1rem;
-            line-height: 160%;
-            font-weight: 400;
-          }
-        }
-        .main__about-section__exp-int__exp__rectangle {
-          width: 3rem;
-          height: 0.13rem;
-          background: $tertiary-color;
-          margin-block: 0.2rem;
-
-          &--long {
-            width: auto;
-          }
-
-          &--primary {
-            background: $secondary-color;
-          }
-        }
-      }
-    }
-
-    .main__about-section__bio-alternate {
-      display: none;
-    }
-
-    .main__about-section__bio {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        .main__about-section__bio__text {
-            margin: 2rem;
-        }
-
-    }
   }
 
+  .main__about-section-bio-alternate {
+    display: none;
+  }
 
-  @media screen and (min-width: 768px) {
-    .main {
-        .main__bio__title {
-          display: none;
-        }
+  .main__about-section-bio-text {
+    margin: 2rem;
+  }
 
-        .main__bio__rectangle {
-          display: none;
-        }
+  .main__about-section-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
-      .main__about-section {
-        margin: 1.5rem;
-        margin-top: 2rem;
-        .main__about-section__bio-alternate {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          .main__about-section__bio-alternate__title-and-image {
-
-            .main__bio-alternate__title-and-image__title {
-              font-size: 2.5rem;
-            }
-
-            .main__bio-alternate__title-and-image__rectangle {
-              width: 3rem;
-              height: 0.13rem;
-              background: $secondary-color;
-              margin-block: 0.2rem;
-            }
-          }
-        }
-
-        .main__about-section__bio {
-          display: none;
-        }
-        
-        .main__about-section__exp-int {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-          width: 100%;
-          }
-        }
-      }
+@media screen and (min-width: 768px) {
+  .main {
+    .main__bio-title {
+      display: none;
     }
-        
+
+    .main__bio-rectangle {
+      display: none;
+    }
+
+    .main__bio-alternate-title-and-image-title {
+      font-size: 2.5rem;
+    }
+
+    .main__bio-alternate-title-and-image-rectangle {
+      width: 3rem;
+      height: 0.13rem;
+      background: $secondary-color;
+      margin-block: 0.2rem;
+    }
+
+    .main__about-section-bio-alternate-title-and-image {
+    }
+
+    .main__about-section-bio-alternate {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .main__about-section-bio {
+      display: none;
+    }
+
+    .main__about-section-exp-int {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    .main__about-section {
+      margin: 1.5rem;
+      margin-top: 2rem;
+    }
+  }
+}

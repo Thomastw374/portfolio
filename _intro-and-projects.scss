@@ -26,66 +26,59 @@
     margin: 1.5rem;
   }
 
+  .main__section-2-button {
+    text-decoration: none;
+    font: $title-font;
+    color: $primary-color;
+    border: $tertiary-color;
+    background-color: $tertiary-color;
+    padding-block: 0.2rem;
+    padding-inline: 1rem;
+    margin-right: 0.2rem;
+  }
+
+  .main__section-2-buttons-container {
+  }
+
+  .main__section-2-rectangle {
+    width: 5.7rem;
+    height: 0.0625rem;
+    background-color: $secondary-color;
+    margin-block: 1rem;
+  }
+
+  .main__section-2-card-title-text {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
   .main__section-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
 
-    .main__section-2-button {
-      text-decoration: none;
-      font: $title-font;
-      color: $primary-color;
-      border: $tertiary-color;
-      background-color: $tertiary-color;
-      padding-block: 0.2rem;
-      padding-inline: 1rem;
-      margin-right: 0.2rem;
-    }
+  .main__section-2-card-button-image {
+    background-color: $tertiary-color;
+    color: $tertiary-color;
+  }
 
-    .main__section-2-buttons-container {
-    }
+  .main__section-2-card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .main__section-2-rectangle {
-      width: 5.7rem;
-      height: 0.0625rem;
-      background-color: $secondary-color;
-      margin-block: 1rem;
-    }
+  .main__section-2-card-title-button {
+    display: flex;
+    justify-content: center;
+    background-color: $tertiary-color;
+    border: 2px solid $tertiary-color;
+    border-radius: 50%;
+  }
 
-    .main__section-2__card-title-text {
-      font-size: 2rem;
-      font-weight: 400;
-    }
-
-    .main__section-2-card {
-      margin-top: 1.5rem;
-
-      &--extra {
-        display: none;
-      }
-
-      .main__section-2-card-title {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .main__section-2__card__title__buttons {
-          display: flex;
-          .main__section-2__card__title__buttons__button {
-            display: flex;
-            justify-content: center;
-            background-color: $tertiary-color;
-            border: 2px solid $tertiary-color;
-            border-radius: 50%;
-
-            .main__section-2__card__title__buttons__button-image {
-              background-color: $tertiary-color;
-              color: $tertiary-color;
-            }
-          }
-        }
-      }
-    }
+  .main__section-2-card-title-buttons {
+    display: flex;
   }
 }
 
