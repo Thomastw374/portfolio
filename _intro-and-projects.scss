@@ -38,6 +38,7 @@
   }
 
   .main__section-2-buttons-container {
+    margin-bottom: 1rem;
   }
 
   .main__section-2-rectangle {
@@ -50,6 +51,8 @@
   .main__section-2-card-title-text {
     font-size: 2rem;
     font-weight: 400;
+    text-decoration: none;
+    color: $primary-color;
   }
 
   .main__section-2 {
