@@ -51,12 +51,8 @@
   }
 }
 
-.main__contact-button {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-  .main__contact-button__link {
+.main {
+  .main__contact-button-link {
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -68,14 +64,21 @@
     padding-block: 1.2rem;
     margin: 1.5rem;
   }
-}
 
-.main__contact-text {
-  display: flex;
-  justify-content: center;
-  margin-block: 3.25rem;
+  .main__contact-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
   .main__contact-text__text {
     font-size: 3rem;
+  }
+
+  .main__contact-text {
+    display: flex;
+    justify-content: center;
+    margin-block: 3.25rem;
   }
 }
 
@@ -85,13 +88,15 @@
   background-color: $tertiary-color;
   border: $tertiary-color;
   height: 4rem;
+
+  .footer__images-image {
+    background-color: $tertiary-color;
+    padding-top: 0.4rem;
+    padding-inline: 0.4rem;
+  }
+
   .footer__images {
     background-color: $tertiary-color;
-    .footer__images__image {
-      background-color: $tertiary-color;
-      padding-top: 0.4rem;
-      padding-inline: 0.4rem;
-    }
   }
 }
 
