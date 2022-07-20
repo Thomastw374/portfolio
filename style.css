@@ -191,6 +191,10 @@
   border: 2px solid #3C3636;
   border-radius: 50%;
 }
+.main .main__section-2-card-image {
+  width: 24.7rem;
+  height: auto;
+}
 .main .main__section-2-card-title-buttons {
   display: flex;
 }
@@ -201,6 +205,7 @@
   }
   .main .main__section-2-card-image {
     width: 24.7rem;
+    height: auto;
   }
   .main .main__section-2-card--extra {
     display: inline;
