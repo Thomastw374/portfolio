@@ -165,7 +165,7 @@
   margin-block: 1rem;
 }
 .main .main__section-2-card-title-text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   text-decoration: none;
   color: white;
@@ -192,7 +192,7 @@
   border-radius: 50%;
 }
 .main .main__section-2-card-image {
-  width: 24.7rem;
+  width: 20.5rem;
   height: auto;
 }
 .main .main__section-2-card-title-buttons {
