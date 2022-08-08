@@ -23,7 +23,7 @@
     width: 3rem;
     height: 0.13rem;
     background: $tertiary-color;
-    margin-block: 0.2rem;
+    margin-block: 0.5rem;
 
     &--long {
       width: auto;
@@ -68,7 +68,7 @@
     width: 3rem;
     height: 0.13rem;
     background: $tertiary-color;
-    margin-block: 0.2rem;
+    margin-block: 0.5rem;
 
     &--long {
       width: auto;
@@ -104,6 +104,12 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .main__about-section-bio-image {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -125,12 +131,14 @@
       height: 0.13rem;
       background: $secondary-color;
       margin-block: 0.2rem;
+      margin-block: 0.5rem;
     }
 
     .main__about-section-bio-alternate {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-items: center;
     }
 
     .main__about-section-bio {
