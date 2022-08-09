@@ -4,14 +4,12 @@ const collapsibleButton = document.querySelector("#collapsible-button");
 
 const handleCollapsibleToggle = () => {
 
-    
+    if (collapsible.style.display === "block") {
+        collapsible.style.display = "none";
+    } else {
+        collapsible.style.display = "block"
+    }
 }
 
 
-collapsibleButton.addEventListener("click", function() {
-    if (collapsible.style.display === "none") {
-      collapsible.style.display = "block";
-    } else {
-      collapsible.style.display = "none";
-    }
-})
+collapsibleButton.addEventListener("click", handleCollapsibleToggle)
