@@ -13,6 +13,7 @@
     background: $secondary-color;
     margin-left: 2rem;
     margin-bottom: 2rem;
+    margin-top: 0.2rem;
   }
 
   .main__about-section-bio-alternate {
@@ -34,29 +35,16 @@
     }
   }
 
-  .main__about-section-exp-int-int-dropdown-text {
+  .main__about-section-dropdown-text {
     font: $main-text-font;
     font-size: 1rem;
     font-weight: 400;
     line-height: 160%;
-  }
-
-  .main__about-section-exp-int-int-dropdown {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .main__about-section-exp-int-int {
     margin-top: 1rem;
     width: 20rem;
-  }
-
-  .main__about-section-exp-int-exp-dropdown-text {
-    font: $main-text-font;
-    font-size: 1rem;
-    line-height: 160%;
-    font-weight: 400;
   }
 
   .main__about-section-exp-int-exp {
@@ -79,7 +67,7 @@
     }
   }
 
-  .main__about-section-exp-int-exp-dropdown {
+  .main__about-section-dropdown {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,6 +91,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .main__about-date {
+    color: $secondary-color;
+    margin-bottom: 0.5rem;
+  }
+
+  .main__experience-text {
+    font-family: inter;
+    font-size: 0.65rem;
+    margin-bottom: 0.75rem;
+    margin-left: 1rem;
+  }
+
+  .main__about-plus-sign{
+    cursor: pointer;
+  }
+
+  .main__experience-list {
+    margin-bottom: 0.75rem;
+  }
+
+  .main__experience-dropdown {
+    display: none;
   }
 
   .main__about-section-bio-image {
@@ -130,8 +142,8 @@
       width: 3rem;
       height: 0.13rem;
       background: $secondary-color;
-      margin-block: 0.2rem;
       margin-block: 0.5rem;
+      margin-bottom: 1rem;
     }
 
     .main__about-section-bio-alternate {

@@ -19,9 +19,9 @@
 
         <div class="header__menu-alternative" >
 
-            <a class= "header__text" >About</a>
-            <a class= "header__text" >Portfolio</a>
-            <a class= "header__text" >Contact</a>
+            <a class= "header__text" href="#about">About</a>
+            <a class= "header__text" href="#portfolio">Portfolio</a>
+            <a class= "header__text" href="#contact" >Contact</a>
     
         </div>
     </header>
@@ -37,14 +37,14 @@
         </div>
     </section>
 
-    <div class="main__portfolio-header" >
+    <div id="portfolio" class="main__portfolio-header" >
         <h1 class="main__portfolio-title">PORTFOLIO</h1>
         <div class="main__portfolio-icon"></div>
     </div>
 
     <section class="main__section-2">
         <article class="main__section-2-card">
-            <img class="main__section-2-card-image" src="./images/parkrunner-screenshot.png" alt="javascript game project picture">
+            <a href="https://thomastw374.github.io/javascript-game/"><img class="main__section-2-card-image" src="./images/parkrunner-screenshot.png" alt="javascript game project picture"></a>
 
             <div class="main__section-2-card-title">
 
@@ -66,7 +66,7 @@
         </article>
 
         <article class="main__section-2-card">
-            <img class="main__section-2-card-image" src="./images/calculator-screenshot.png" alt="calculator project picture">
+            <a href="https://thomastw374.github.io/calculator-web-app/"><img class="main__section-2-card-image" src="./images/calculator-screenshot.png" alt="calculator project picture"></a>
 
             <div class="main__section-2-card-title">
                     <a href="https://thomastw374.github.io/calculator-web-app/" class="main__section-2-card-title-text">CALCULATOR</a>  
@@ -87,7 +87,7 @@
         </article>
 
         <article class="main__section-2-card">
-            <img class="main__section-2-card-image" src="./images/punkapi-screenshot.png" alt="punk api project picture">
+            <a href="https://thomastw374.github.io/punk-api-project/"><img class="main__section-2-card-image" src="./images/punkapi-screenshot.png" alt="punk api project picture"></a>
 
             <div class="main__section-2-card-title">
                     <a href="https://thomastw374.github.io/punk-api-project/" class="main__section-2-card-title-text">PUNK API</a> 
@@ -100,7 +100,7 @@
 
             <div class="main__section-2-rectangle"></div>
             <div class="main__section-2-buttons-container">
-                <a  class="main__section-2-button" >REACT</a> 
+                <a  class="main__section-2-button" >REACT.JS</a> 
                 <a class="main__section-2-button" >SCSS</a>
             </div>
 
@@ -173,10 +173,10 @@
         
     </section>
 
-    <h1 class="main__bio-title">ABOUT.</h1>
+    <h1 class="main__bio-title" >ABOUT.</h1>
     <div class="main__bio-rectangle"></div>
     
-    <section class="main__about-section">
+    <section class="main__about-section" id="about">
 
         <div class="main__about-section-bio">
             
@@ -189,7 +189,7 @@
             </p>
         </div>
 
-        <div class="main__about-section-bio-alternate">
+        <div class="main__about-section-bio-alternate" id="about">
             
             
             <div class="main__about-section-bio-alternate-title-and-image">
@@ -212,23 +212,31 @@
 
                 <div class="main__about-section-exp-int-exp-rectangle main__about-section-exp-int-exp-rectangle--primary"></div>
 
-                <div class="main__about-section-exp-int-exp-dropdown">
-                    <h3 class="main__about-section-exp-int-exp-dropdown-text">Trainee Software Developer @ Nology</h3>
-                    <img src="./images/ant-design_plus-outlined.png" alt="plus symbol">
+                <div class="main__about-section-dropdown">
+                    <h3 class="main__about-section-dropdown-text">Trainee Software Developer @ Nology</h3>
+                    <img id="collapsible-button" class="main__about-plus-sign" src="./images/ant-design_plus-outlined.png" alt="plus symbol">
+                </div>
+                
+
+                <div class="main__experience-dropdown">
+                    <p class="main__about-date">Jun 2022 - Present</p>
+                    <ul class="main__experience-list">
+                        <li class="main__experience-text">Selected to take part in a 12-week, fully-funded, full stack software engineering bootcamp.</li>
+                        <li class="main__experience-text">The bootcamp includes a 4 week project for a real client utilizing the skills learned on the course.</li>
+                    </ul>
+                </div>
+                <div class="main__about-section-exp-int-exp-rectangle main__about-section-exp-int-exp-rectangle--long"></div>
+
+                <div class="main__about-section-dropdown">
+                    <h3 class="main__about-section-dropdown-text">Facilities Assistant @ Manchester City Council</h3>
+                    <img class="main__about-plus-sign" src="./images/ant-design_plus-outlined.png" alt="plus symbol">
                 </div>
 
                 <div class="main__about-section-exp-int-exp-rectangle main__about-section-exp-int-exp-rectangle--long"></div>
 
-                <div class="main__about-section-exp-int-exp-dropdown">
-                    <h3 class="main__about-section-exp-int-exp-dropdown-text">Facilities Assistant @ Manchester City Council</h3>
-                    <img src="./images/ant-design_plus-outlined.png" alt="plus symbol">
-                </div>
-
-                <div class="main__about-section-exp-int-exp-rectangle main__about-section-exp-int-exp-rectangle--long"></div>
-
-                <div class="main__about-section-exp-int-exp-dropdown">
-                    <h3 class="main__about-section-exp-int-exp-dropdown-text">Team Member @ The Grainloft</h3>
-                    <img src="./images/ant-design_plus-outlined.png" alt="plus symbol">
+                <div class="main__about-section-dropdown">
+                    <h3 class="main__about-section-dropdown-text">Team Member @ The Grainloft</h3>
+                    <img src="./images/ant-design_plus-outlined.png" class="main__about-plus-sign" alt="plus symbol">
                 </div>
                 
                 <div class="main__about-section-exp-int-exp-rectangle main__about-section-exp-int-exp-rectangle--long"></div>
@@ -238,19 +246,19 @@
             <div class="main__about-section-exp-int-int">
                 <h2>INTERESTS</h2>
                 <div class="main__about-section-exp-int-int-rectangle main__about-section-exp-int-int-rectangle--primary "></div>
-                <div class="main__about-section-exp-int-int-dropdown">
-                    <h3 class="main__about-section-exp-int-int-dropdown-text">Guitar</h3>
-                    <img src="./images/ant-design_plus-outlined.png" alt="plus symbol">
+                <div class="main__about-section-dropdown">
+                    <h3 class="main__about-section-dropdown-text">Guitar</h3>
+                    <img src="./images/ant-design_plus-outlined.png"  class="main__about-plus-sign" alt="plus symbol">
                 </div>
                 <div class="main__about-section-exp-int-int-rectangle main__about-section-exp-int-int-rectangle--long"></div>
-                <div class="main__about-section-exp-int-int-dropdown">
-                    <h3 class="main__about-section-exp-int-int-dropdown-text">Rock Climbing</h3>
-                    <img src="./images/ant-design_plus-outlined.png" alt="plus symbol">
+                <div class="main__about-section-dropdown">
+                    <h3 class="main__about-section-dropdown-text">Rock Climbing</h3>
+                    <img src="./images/ant-design_plus-outlined.png" class="main__about-plus-sign"  alt="plus symbol">
                 </div>
                 <div class="main__about-section-exp-int-int-rectangle main__about-section-exp-int-int-rectangle--long"></div>
-                <div class="main__about-section-exp-int-int-dropdown">
-                    <h3 class="main__about-section-exp-int-int-dropdown-text">Weightlifting</h3>
-                    <img src="./images/ant-design_plus-outlined.png" alt="plus symbol">
+                <div class="main__about-section-dropdown">
+                    <h3 class="main__about-section-dropdown-text">Weightlifting</h3>
+                    <img src="./images/ant-design_plus-outlined.png" class="main__about-plus-sign" alt="plus symbol">
                 </div>
                 <div class="main__about-section-exp-int-int-rectangle main__about-section-exp-int-int-rectangle--long"></div>
             </div>
@@ -260,7 +268,7 @@
 
     </section>
 
-    <div class="main__contact-text">
+    <div class="main__contact-text" id="contact">
     <h2 class="main__contact-text-text">Get In Touch.</h2>
     </div>
 
@@ -279,7 +287,7 @@
         </div>
     </footer>
 
-
+    <script src="./script.js"></script>
 </body>
 </html>
  
