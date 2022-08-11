@@ -95,6 +95,24 @@
 .main .main__experience-dropdown {
   display: none;
 }
+.main .main__experience-dropdown--one {
+  display: none;
+}
+.main .main__experience-dropdown--two {
+  display: none;
+}
+.main .main__experience-dropdown--three {
+  display: none;
+}
+.main .main__experience-dropdown--four {
+  display: none;
+}
+.main .main__experience-dropdown--five {
+  display: none;
+}
+.main .main__experience-dropdown--six {
+  display: none;
+}
 .main .main__about-section-bio-image {
   width: 20rem;
   height: auto;
