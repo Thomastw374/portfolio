@@ -17,6 +17,9 @@
 .main .main__about-section-bio-alternate {
   display: none;
 }
+.main #interests-text {
+  margin-block: 0.5rem;
+}
 .main .main__about-section-exp-int-int-rectangle {
   width: 3rem;
   height: 0.13rem;
@@ -85,6 +88,9 @@
   font-size: 0.65rem;
   margin-bottom: 0.75rem;
   margin-left: 1rem;
+}
+.main .main__experience-text--interests {
+  margin-block: 0.2rem;
 }
 .main .main__about-plus-sign {
   cursor: pointer;
@@ -224,6 +230,7 @@
   background-color: #3C3636;
   border: 2px solid #3C3636;
   border-radius: 50%;
+  height: 1.55rem;
 }
 .main .main__section-2-card-image {
   width: 20.5rem;

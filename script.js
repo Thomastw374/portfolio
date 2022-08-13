@@ -18,16 +18,25 @@ const collapsibleSix = document.querySelector(
 );
 const collapsibleButtonOne = document.querySelector("#collapsible-button-one");
 const collapsibleButtonTwo = document.querySelector("#collapsible-button-two");
-const collapsibleButtonThree = document.querySelector("#collapsible-button-three");
-const collapsibleButtonFour = document.querySelector("#collapsible-button-four");
-const collapsibleButtonFive = document.querySelector("#collapsible-button-five");
+const collapsibleButtonThree = document.querySelector(
+  "#collapsible-button-three"
+);
+const collapsibleButtonFour = document.querySelector(
+  "#collapsible-button-four"
+);
+const collapsibleButtonFive = document.querySelector(
+  "#collapsible-button-five"
+);
 const collapsibleButtonSix = document.querySelector("#collapsible-button-six");
 
 const handleCollapsibleToggleOne = () => {
   if (collapsibleOne.style.display === "block") {
     collapsibleOne.style.display = "none";
+    // collapsibleButtonOne.src = "./images/ant-design_plus-outlined.png";
   } else {
     collapsibleOne.style.display = "block";
+    // collapsibleButtonOne.src = "./images/vector-2.png";
+    
   }
 };
 
@@ -71,7 +80,7 @@ const handleCollapsibleToggleSix = () => {
   }
 };
 
-collapsibleButtonOne.addEventListener("click", handleCollapsibleToggleOne);
+collapsibleButtonOne.parentElement.addEventListener("click", handleCollapsibleToggleOne);
 collapsibleButtonTwo.addEventListener("click", handleCollapsibleToggleTwo);
 collapsibleButtonThree.addEventListener("click", handleCollapsibleToggleThree);
 collapsibleButtonFour.addEventListener("click", handleCollapsibleToggleFour);
