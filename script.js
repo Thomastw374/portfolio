@@ -46,7 +46,7 @@ const handleCollapsibleToggleTwo = () => {
     collapsibleButtonTwo.src = "./images/ant-design_plus-outlined.png";
   } else {
     collapsibleTwo.style.display = "block";
-    collapsibleButtonTwo.src = "./images/vector-2.png";
+    collapsibleButtonTwo.src = "./images/Vector-2.png";
   }
 };
 
@@ -56,7 +56,7 @@ const handleCollapsibleToggleThree = () => {
     collapsibleButtonThree.src = "./images/ant-design_plus-outlined.png";
   } else {
     collapsibleThree.style.display = "block";
-    collapsibleButtonThree.src = "./images/vector-2.png";
+    collapsibleButtonThree.src = "./images/Vector-2.png";
   }
 };
 
@@ -66,7 +66,7 @@ const handleCollapsibleToggleFour = () => {
     collapsibleButtonFour.src = "./images/ant-design_plus-outlined.png";
   } else {
     collapsibleFour.style.display = "block";
-    collapsibleButtonFour.src = "./images/vector-2.png";
+    collapsibleButtonFour.src = "./images/Vector-2.png";
   }
 };
 
@@ -76,7 +76,7 @@ const handleCollapsibleToggleFive = () => {
     collapsibleButtonFive.src = "./images/ant-design_plus-outlined.png";
   } else {
     collapsibleFive.style.display = "block";
-    collapsibleButtonFive.src = "./images/vector-2.png";
+    collapsibleButtonFive.src = "./images/Vector-2.png";
   }
 };
 
@@ -86,7 +86,7 @@ const handleCollapsibleToggleSix = () => {
     collapsibleButtonSix.src = "./images/ant-design_plus-outlined.png";
   } else {
     collapsibleSix.style.display = "block";
-    collapsibleButtonSix.src = "./images/vector-2.png";
+    collapsibleButtonSix.src = "./images/Vector-2.png";
   }
 };
 
