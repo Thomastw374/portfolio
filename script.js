@@ -35,7 +35,7 @@ const handleCollapsibleToggleOne = () => {
     collapsibleButtonOne.src = "./images/ant-design_plus-outlined.png";
   } else {
     collapsibleOne.style.display = "block";
-    collapsibleButtonOne.src = "./images/vector-2.png";
+    collapsibleButtonOne.src = "./images/Vector-2.png";
     
   }
 };
